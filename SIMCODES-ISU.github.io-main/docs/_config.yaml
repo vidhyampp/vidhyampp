@@ -1,0 +1,109 @@
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+locale: en-US
+title: "SIMCODES"
+description: "An NSF REU Program."
+baseurl:
+url: "https://simcodes-isu.github.io"
+logo: "/images/stub_logo_200_200.png"
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: # 200
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Collections
+collections:
+  about:
+    output: true
+    permalink: /:collection/:path/
+  examples:
+    output: true
+    permalink: /:collection/:path/
+  mentors:
+    output: true
+    permalink: /:collection/:path/
+  resources:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # About default
+  - scope:
+      path: "_about"
+      type: about
+    values:
+      layout: post
+      comments: false
+      share: false
+  # Example defaults
+  - scope:
+      path: "_examples"
+      type: examples
+    values:
+      layout: post
+      comments: false
+      share: false
+  # Mentor defaults
+  - scope:
+      path: "_mentors"
+      type: mentors
+    values:
+      layout: post
+      comments: false
+      share: false
+  # Resource defaults
+  - scope:
+      path: "_resources"
+      type: resources
+    values:
+      layout: post
+      comments: false
+      share: false
+
+
+# Footer Links
+footer_links:
+  - title: GitHub
+    url: https://github.com/SIMCODES-ISU
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square

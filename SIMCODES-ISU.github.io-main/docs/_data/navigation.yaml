@@ -1,0 +1,12 @@
+# Site navigation bar links
+
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Examples 
+  url: /examples/
+- title: Mentors
+  url: /mentors/
+- title: Resources
+  url: /resources/
