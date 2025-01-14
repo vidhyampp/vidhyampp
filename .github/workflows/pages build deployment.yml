@@ -1,0 +1,85 @@
+name: Pages Build Deployment
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Set up the job
+      - name: Set up job
+        run: echo "Initializing the job"
+
+      # 2. Pull Jekyll Build Action
+      - name: Pull Jekyll Build Action
+        uses: actions/jekyll-build-pages@v1
+
+      - name: Fix file permissions
+        run: sudo chown -R $USER:$USER /home/runner/work/vidhyampp/vidhyampp
+
+      - name: Set write permissions on the directory
+        run: sudo chmod -R u+w /home/runner/work/vidhyampp/vidhyampp
+
+      # 3. Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 4. Build with Jekyll
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: . # Set the source directory for the Jekyll build
+
+      # 5. Upload Artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-output
+          path: ./_site # Replace with the actual build output directory
+
+      # 6. Post Checkout (if any cleanup is required)
+      - name: Post Checkout
+        run: echo "Post-build cleanup or additional steps"
+
+      # 7. Complete job
+      - name: Complete job
+        run: echo "Build job completed successfully"
+
+  report-build-status:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Set up the job
+      - name: Set up job
+        run: echo "Initializing report-build-status job"
+
+      # 2. Report Build Status
+      - name: Report Build Status
+        run: |
+          gh api -X POST "repos/${{ github.repository }}/pages/telemetry" -f '{}'
+
+      # 3. Complete job
+      - name: Complete job
+        run: echo "Cleaning up orphan processes"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Set up the job
+      - name: Set up job
+        run: echo "Preparing deployment environment"
+
+      # 2. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 3. Complete job
+      - name: Complete job
+        run: |
+          echo "Evaluating and setting environment URL"
+          echo "Evaluated environment URL: https://simcodes-isu.github.io/"
+          echo "Cleaning up orphan processes"
