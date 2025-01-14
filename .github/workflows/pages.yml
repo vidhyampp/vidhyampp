@@ -63,7 +63,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh api -X POST "repos/${{ github.repository }}/pages/telemetry" -f '{}'
+          gh api -X POST "repos/${{ github.repository }}/pages/telemetry" 
 
       # 3. Complete job
       - name: Complete job
