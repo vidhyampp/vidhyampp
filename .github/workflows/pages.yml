@@ -1,5 +1,9 @@
 name: Pages Build Deployment
 
+permissions:
+  id-token: write  # Allow issuing OIDC tokens
+  contents: read   # Allow access to repository contents for checkout
+
 on:
   workflow_dispatch: # Allows manual triggering
 
