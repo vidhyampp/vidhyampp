@@ -61,7 +61,7 @@ jobs:
       # 2. Report Build Status
       - name: Report Build Status
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_GH_TOKEN }}
         run: |
           gh api -X POST "repos/${{ github.repository }}/pages/telemetry" 
 
