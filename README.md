@@ -1,5 +1,18 @@
 # 💫 About Me:
-👋 Hi there, I’m Vidhya — a Test Automation Engineer by experience, a Developer by passion.<br><br>🛠 I’m currently working on full-stack web apps using the **MERN stack** (MongoDB, Express, React, Node.js), and modernizing legacy automation frameworks into reusable service-based utilities. My goal is to bridge testing and development through clean, maintainable code.<br><br>🤝 I’m looking to collaborate on open-source **web applications**, **developer tools**, or **testing utilities** where I can bring both a QA and dev lens to the table.<br><br>🧠 I’m looking for help with refining backend design patterns (like MVC and service layers), and deploying full-stack apps on **cloud platforms** like AWS.<br><br>🌱 I’m currently learning **TypeScript**, **Docker**, and scalable **React patterns** — focusing on performance, accessibility, and clean architecture.<br><br>💬 Ask me about transitioning from QA to full-stack dev, testable architecture, or how automation thinking strengthens development!<br><br>⚡ Fun fact: My first “full-stack app” was a test reporting dashboard… written in jQuery, connected to a Python script via Flask!<br>
+👋 Hi, I’m Vidhya — a Senior Software Development Engineer in Test with 7+ years of experience building scalable automation frameworks, API validation systems, and CI/CD-driven quality engineering solutions across fintech and enterprise platforms.
+
+🛠 My work focuses on bridging software engineering and quality engineering through backend automation, distributed systems testing, observability, and modern full-stack development. I’ve worked extensively with Playwright, Python, TypeScript, AWS, and microservice-based architectures to build reliable, scalable testing ecosystems.
+
+🚀 I’m currently building full-stack applications using React, Node.js, Next.js, and cloud-native tooling while exploring AI-assisted automation, service-layer validation, and scalable platform engineering patterns.
+
+🤝 I’m open to collaborating on backend platforms, developer tooling, automation frameworks, AI-driven testing systems, and modern cloud-native applications where engineering quality and scalability matter.
+
+🌱 Currently learning deeper system design concepts, scalable TypeScript architectures, Docker/Kubernetes workflows, and modern observability patterns across distributed systems.
+
+💬 Ask me about automation architecture, backend/API testing, CI/CD quality engineering, transitioning into platform-focused development, or building scalable test systems for microservices.
+
+⚡ Fun fact: One of my earliest “developer tools” was a custom automation reporting dashboard built before I even realized I was moving from QA into engineering architecture.
+
 
 
 ## 🌐 Socials:
