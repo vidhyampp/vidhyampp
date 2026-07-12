@@ -7,7 +7,7 @@
 
 🤝 Open to collaborating on test automation frameworks, AI-driven QA tooling, and quality engineering for microservices and cloud-native platforms.
 
-🌱 Currently deepening system design, scalable TypeScript architecture, Docker/Kubernetes workflows, and observability patterns — to bring stronger platform-level thinking to test architecture.
+🌱 Currently deepening system design, scalable test architecture, Docker/Kubernetes workflows, and observability patterns — to bring stronger platform-level thinking to test architecture.
 
 💬 Ask me about automation architecture, backend/API testing, CI/CD quality engineering, AI-assisted test systems, or scaling test infrastructure for microservices.
 
