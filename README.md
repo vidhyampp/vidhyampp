@@ -1,18 +1,17 @@
 # 💫 About Me:
-👋 Hi, I’m Vidhya — a Senior Software Development Engineer in Test with 7+ years of experience building scalable automation frameworks, API validation systems, and CI/CD-driven quality engineering solutions across fintech and enterprise platforms.
+👋 Hi, I'm Vidhya — a Senior QA / Test Automation Engineer (SDET) with 7+ years building scalable automation frameworks, API validation systems, and CI/CD-driven quality engineering solutions across fintech and healthcare platforms.
 
-🛠 My work focuses on bridging software engineering and quality engineering through backend automation, distributed systems testing, observability, and modern full-stack development. I’ve worked extensively with Playwright, Python, TypeScript, AWS, and microservice-based architectures to build reliable, scalable testing ecosystems.
+🛠 My core focus is designing test architecture that scales — Playwright, Python, TypeScript, distributed systems testing, and microservice-based validation. I bring engineering depth to QA: backend automation, observability, and service-layer validation, not just UI checks.
 
-🚀 I’m currently building full-stack applications using React, Node.js, Next.js, and cloud-native tooling while exploring AI-assisted automation, service-layer validation, and scalable platform engineering patterns.
+🚀 Currently building AI-augmented testing tooling — self-healing locators, LLM-based visual regression triage, natural-language test generation — with a deterministic-first design so AI adds leverage without ever becoming a dependency. Also exploring full-stack (React, Node.js, Next.js) and cloud-native patterns to deepen how I design test systems for modern architectures.
 
-🤝 I’m open to collaborating on backend platforms, developer tooling, automation frameworks, AI-driven testing systems, and modern cloud-native applications where engineering quality and scalability matter.
+🤝 Open to collaborating on test automation frameworks, AI-driven QA tooling, and quality engineering for microservices and cloud-native platforms.
 
-🌱 Currently learning deeper system design concepts, scalable TypeScript architectures, Docker/Kubernetes workflows, and modern observability patterns across distributed systems.
+🌱 Currently deepening system design, scalable TypeScript architecture, Docker/Kubernetes workflows, and observability patterns — to bring stronger platform-level thinking to test architecture.
 
-💬 Ask me about automation architecture, backend/API testing, CI/CD quality engineering, transitioning into platform-focused development, or building scalable test systems for microservices.
+💬 Ask me about automation architecture, backend/API testing, CI/CD quality engineering, AI-assisted test systems, or scaling test infrastructure for microservices.
 
-⚡ Fun fact: One of my earliest “developer tools” was a custom automation reporting dashboard built before I even realized I was moving from QA into engineering architecture.
-
+⚡ Fun fact: one of my earliest "developer tools" was a custom automation reporting dashboard — built before I even realized I was moving from QA execution into engineering architecture.
 
 
 ## 🌐 Socials:
