@@ -18,9 +18,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vidhyamp) 
 
 # 💻 Tech Stack:
-# 💻 Tech Stack
 
-**Core Testing & Automation**
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white) 
 ![Pytest](https://img.shields.io/badge/-Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
@@ -29,20 +27,15 @@
 ![Cucumber](https://img.shields.io/badge/-Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white) 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
 ![JMeter](https://img.shields.io/badge/-JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
-
-**CI/CD & DevOps**
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![JMeter](https://img.shields.io/badge/-JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/-SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white) 
 ![AllureReport](https://img.shields.io/badge/-Allure%20Report-FF5A5F?style=for-the-badge)
-
-**AI-Augmented Testing**
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=for-the-badge) 
 ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F61?style=for-the-badge) 
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-
-**Also 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![Appium](https://img.shields.io/badge/-Appium-662D91?style=for-the-badge&logo=appium&logoColor=white)
